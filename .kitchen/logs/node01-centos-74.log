@@ -1,0 +1,402 @@
+I, [2018-02-16T14:11:51.330362 #29226]  INFO -- node01-centos-74: -----> Cleaning up any prior instances of <node01-centos-74>
+I, [2018-02-16T14:11:51.336727 #29226]  INFO -- node01-centos-74: -----> Destroying <node01-centos-74>...
+I, [2018-02-16T14:11:57.580787 #29226]  INFO -- node01-centos-74: ==> default: Forcing shutdown of VM...
+I, [2018-02-16T14:11:59.513392 #29226]  INFO -- node01-centos-74: ==> default: Destroying VM and associated drives...
+I, [2018-02-16T14:11:59.891145 #29226]  INFO -- node01-centos-74: Vagrant instance <node01-centos-74> destroyed.
+I, [2018-02-16T14:11:59.896972 #29226]  INFO -- node01-centos-74: Finished destroying <node01-centos-74> (0m8.55s).
+I, [2018-02-16T14:11:59.897467 #29226]  INFO -- node01-centos-74: -----> Testing <node01-centos-74>
+I, [2018-02-16T14:11:59.897625 #29226]  INFO -- node01-centos-74: -----> Creating <node01-centos-74>...
+I, [2018-02-16T14:12:01.330184 #29226]  INFO -- node01-centos-74: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2018-02-16T14:12:01.501536 #29226]  INFO -- node01-centos-74: ==> default: Importing base box 'bento/centos-7.4'...
+I, [2018-02-16T14:12:12.093977 #29226]  INFO -- node01-centos-74: [KProgress: 30%[KProgress: 50%[KProgress: 60%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2018-02-16T14:12:12.301708 #29226]  INFO -- node01-centos-74: ==> default: Checking if box 'bento/centos-7.4' is up to date...
+I, [2018-02-16T14:12:13.431451 #29226]  INFO -- node01-centos-74: ==> default: A newer version of the box 'bento/centos-7.4' is available! You currently
+I, [2018-02-16T14:12:13.431520 #29226]  INFO -- node01-centos-74: ==> default: have version '201801.02.0'. The latest is version '201802.02.0'. Run
+I, [2018-02-16T14:12:13.431551 #29226]  INFO -- node01-centos-74: ==> default: `vagrant box update` to update.
+I, [2018-02-16T14:12:14.287694 #29226]  INFO -- node01-centos-74: ==> default: Setting the name of the VM: node01-centos-74_default_1518757934226_53863
+I, [2018-02-16T14:12:16.279510 #29226]  INFO -- node01-centos-74: ==> default: Clearing any previously set network interfaces...
+I, [2018-02-16T14:12:16.382443 #29226]  INFO -- node01-centos-74: ==> default: Preparing network interfaces based on configuration...
+I, [2018-02-16T14:12:16.382835 #29226]  INFO -- node01-centos-74:     default: Adapter 1: nat
+I, [2018-02-16T14:12:16.469334 #29226]  INFO -- node01-centos-74: ==> default: Forwarding ports...
+I, [2018-02-16T14:12:16.609334 #29226]  INFO -- node01-centos-74:     default: 22 (guest) => 2222 (host) (adapter 1)
+I, [2018-02-16T14:12:16.856070 #29226]  INFO -- node01-centos-74: ==> default: Booting VM...
+I, [2018-02-16T14:12:17.518357 #29226]  INFO -- node01-centos-74: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2018-02-16T14:12:18.239906 #29226]  INFO -- node01-centos-74:     default: SSH address: 127.0.0.1:2222
+I, [2018-02-16T14:12:18.240244 #29226]  INFO -- node01-centos-74:     default: SSH username: vagrant
+I, [2018-02-16T14:12:18.240609 #29226]  INFO -- node01-centos-74:     default: SSH auth method: private key
+I, [2018-02-16T14:13:09.113035 #29226]  INFO -- node01-centos-74:     default: 
+I, [2018-02-16T14:13:09.113152 #29226]  INFO -- node01-centos-74:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2018-02-16T14:13:09.113266 #29226]  INFO -- node01-centos-74:     default: this with a newly generated keypair for better security.
+I, [2018-02-16T14:13:11.969928 #29226]  INFO -- node01-centos-74:     default: 
+I, [2018-02-16T14:13:11.972343 #29226]  INFO -- node01-centos-74:     default: Inserting generated public key within guest...
+I, [2018-02-16T14:13:12.232086 #29226]  INFO -- node01-centos-74:     default: Removing insecure key from the guest if it's present...
+I, [2018-02-16T14:13:12.556909 #29226]  INFO -- node01-centos-74:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2018-02-16T14:13:13.676852 #29226]  INFO -- node01-centos-74: ==> default: Machine booted and ready!
+I, [2018-02-16T14:13:14.125589 #29226]  INFO -- node01-centos-74: [default] GuestAdditions versions on your host (5.1.28) and guest (5.2.4) do not match.
+I, [2018-02-16T14:13:15.452703 #29226]  INFO -- node01-centos-74: Loaded plugins: fastestmirror
+I, [2018-02-16T14:13:32.848660 #29226]  INFO -- node01-centos-74: Determining fastest mirrors
+I, [2018-02-16T14:13:33.616357 #29226]  INFO -- node01-centos-74:  * base: ftp.riken.jp
+I, [2018-02-16T14:13:33.616434 #29226]  INFO -- node01-centos-74:  * extras: ftp.riken.jp
+I, [2018-02-16T14:13:33.616596 #29226]  INFO -- node01-centos-74:  * updates: ftp.riken.jp
+I, [2018-02-16T14:13:39.458022 #29226]  INFO -- node01-centos-74: Package 1:make-3.82-23.el7.x86_64 already installed and latest version
+I, [2018-02-16T14:13:39.460040 #29226]  INFO -- node01-centos-74: Package 4:perl-5.16.3-292.el7.x86_64 already installed and latest version
+I, [2018-02-16T14:13:39.460132 #29226]  INFO -- node01-centos-74: Package bzip2-1.0.6-13.el7.x86_64 already installed and latest version
+I, [2018-02-16T14:13:39.460190 #29226]  INFO -- node01-centos-74: Resolving Dependencies
+I, [2018-02-16T14:13:39.460223 #29226]  INFO -- node01-centos-74: --> Running transaction check
+I, [2018-02-16T14:13:39.460328 #29226]  INFO -- node01-centos-74: ---> Package binutils.x86_64 0:2.25.1-32.base.el7_4.1 will be updated
+I, [2018-02-16T14:13:39.476694 #29226]  INFO -- node01-centos-74: ---> Package binutils.x86_64 0:2.25.1-32.base.el7_4.2 will be an update
+I, [2018-02-16T14:13:39.497030 #29226]  INFO -- node01-centos-74: ---> Package gcc.x86_64 0:4.8.5-16.el7_4.1 will be installed
+I, [2018-02-16T14:13:39.497107 #29226]  INFO -- node01-centos-74: --> Processing Dependency: cpp = 4.8.5-16.el7_4.1 for package: gcc-4.8.5-16.el7_4.1.x86_64
+I, [2018-02-16T14:13:39.510533 #29226]  INFO -- node01-centos-74: --> Processing Dependency: glibc-devel >= 2.2.90-12 for package: gcc-4.8.5-16.el7_4.1.x86_64
+I, [2018-02-16T14:13:39.510643 #29226]  INFO -- node01-centos-74: ---> Package kernel-devel.x86_64 0:3.10.0-693.11.1.el7 will be installed
+I, [2018-02-16T14:13:39.521598 #29226]  INFO -- node01-centos-74: --> Running transaction check
+I, [2018-02-16T14:13:39.521688 #29226]  INFO -- node01-centos-74: ---> Package cpp.x86_64 0:4.8.5-16.el7_4.1 will be installed
+I, [2018-02-16T14:13:39.521885 #29226]  INFO -- node01-centos-74: ---> Package glibc-devel.x86_64 0:2.17-196.el7_4.2 will be installed
+I, [2018-02-16T14:13:39.532666 #29226]  INFO -- node01-centos-74: --> Processing Dependency: glibc-headers = 2.17-196.el7_4.2 for package: glibc-devel-2.17-196.el7_4.2.x86_64
+I, [2018-02-16T14:13:39.532748 #29226]  INFO -- node01-centos-74: --> Processing Dependency: glibc-headers for package: glibc-devel-2.17-196.el7_4.2.x86_64
+I, [2018-02-16T14:13:39.532783 #29226]  INFO -- node01-centos-74: --> Running transaction check
+I, [2018-02-16T14:13:39.532811 #29226]  INFO -- node01-centos-74: ---> Package glibc-headers.x86_64 0:2.17-196.el7_4.2 will be installed
+I, [2018-02-16T14:13:39.532831 #29226]  INFO -- node01-centos-74: --> Processing Dependency: kernel-headers >= 2.2.1 for package: glibc-headers-2.17-196.el7_4.2.x86_64
+I, [2018-02-16T14:13:39.576815 #29226]  INFO -- node01-centos-74: --> Processing Dependency: kernel-headers for package: glibc-headers-2.17-196.el7_4.2.x86_64
+I, [2018-02-16T14:13:39.588985 #29226]  INFO -- node01-centos-74: --> Running transaction check
+I, [2018-02-16T14:13:39.589048 #29226]  INFO -- node01-centos-74: ---> Package kernel-headers.x86_64 0:3.10.0-693.17.1.el7 will be installed
+I, [2018-02-16T14:13:41.739105 #29226]  INFO -- node01-centos-74: --> Finished Dependency Resolution
+I, [2018-02-16T14:13:41.810276 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:13:41.810347 #29226]  INFO -- node01-centos-74: Dependencies Resolved
+I, [2018-02-16T14:13:41.810371 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:13:41.810395 #29226]  INFO -- node01-centos-74: ================================================================================
+I, [2018-02-16T14:13:41.810416 #29226]  INFO -- node01-centos-74:  Package             Arch        Version                     Repository    Size
+I, [2018-02-16T14:13:41.810449 #29226]  INFO -- node01-centos-74: ================================================================================
+I, [2018-02-16T14:13:41.810468 #29226]  INFO -- node01-centos-74: Installing:
+I, [2018-02-16T14:13:41.810490 #29226]  INFO -- node01-centos-74:  gcc                 x86_64      4.8.5-16.el7_4.1            updates       16 M
+I, [2018-02-16T14:13:41.810531 #29226]  INFO -- node01-centos-74:  kernel-devel        x86_64      3.10.0-693.11.1.el7         updates       14 M
+I, [2018-02-16T14:13:41.810557 #29226]  INFO -- node01-centos-74: Updating:
+I, [2018-02-16T14:13:41.810586 #29226]  INFO -- node01-centos-74:  binutils            x86_64      2.25.1-32.base.el7_4.2      updates      5.4 M
+I, [2018-02-16T14:13:41.810615 #29226]  INFO -- node01-centos-74: Installing for dependencies:
+I, [2018-02-16T14:13:41.810642 #29226]  INFO -- node01-centos-74:  cpp                 x86_64      4.8.5-16.el7_4.1            updates      5.9 M
+I, [2018-02-16T14:13:41.810660 #29226]  INFO -- node01-centos-74:  glibc-devel         x86_64      2.17-196.el7_4.2            updates      1.1 M
+I, [2018-02-16T14:13:41.810677 #29226]  INFO -- node01-centos-74:  glibc-headers       x86_64      2.17-196.el7_4.2            updates      676 k
+I, [2018-02-16T14:13:41.810694 #29226]  INFO -- node01-centos-74:  kernel-headers      x86_64      3.10.0-693.17.1.el7         updates      6.0 M
+I, [2018-02-16T14:13:41.810710 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:13:41.810734 #29226]  INFO -- node01-centos-74: Transaction Summary
+I, [2018-02-16T14:13:41.810751 #29226]  INFO -- node01-centos-74: ================================================================================
+I, [2018-02-16T14:13:41.810767 #29226]  INFO -- node01-centos-74: Install  2 Packages (+4 Dependent packages)
+I, [2018-02-16T14:13:41.810783 #29226]  INFO -- node01-centos-74: Upgrade  1 Package
+I, [2018-02-16T14:13:41.810798 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:13:41.811097 #29226]  INFO -- node01-centos-74: Total download size: 50 M
+I, [2018-02-16T14:13:41.811124 #29226]  INFO -- node01-centos-74: Downloading packages:
+I, [2018-02-16T14:13:41.811141 #29226]  INFO -- node01-centos-74: Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+I, [2018-02-16T14:14:09.371419 #29226]  INFO -- node01-centos-74: http://ftp.tsukuba.wide.ad.jp/Linux/centos/7.4.1708/updates/x86_64/Packages/binutils-2.25.1-32.base.el7_4.2.x86_64.rpm: [Errno 14] curl#18 - "transfer closed with 4794623 bytes remaining to read"
+I, [2018-02-16T14:14:09.373401 #29226]  INFO -- node01-centos-74: Trying other mirror.
+I, [2018-02-16T14:14:45.291798 #29226]  INFO -- node01-centos-74: --------------------------------------------------------------------------------
+I, [2018-02-16T14:14:45.293814 #29226]  INFO -- node01-centos-74: Total                                              799 kB/s |  50 MB  01:03     
+I, [2018-02-16T14:14:45.435149 #29226]  INFO -- node01-centos-74: Running transaction check
+I, [2018-02-16T14:14:45.518094 #29226]  INFO -- node01-centos-74: Running transaction test
+I, [2018-02-16T14:14:46.399308 #29226]  INFO -- node01-centos-74: Transaction test succeeded
+I, [2018-02-16T14:14:46.404187 #29226]  INFO -- node01-centos-74: Running transaction
+I, [2018-02-16T14:14:48.229295 #29226]  INFO -- node01-centos-74:   Installing : kernel-headers-3.10.0-693.17.1.el7.x86_64                    1/8 
+I, [2018-02-16T14:14:48.406705 #29226]  INFO -- node01-centos-74:   Installing : glibc-headers-2.17-196.el7_4.2.x86_64                        2/8 
+I, [2018-02-16T14:14:49.841364 #29226]  INFO -- node01-centos-74:   Installing : glibc-devel-2.17-196.el7_4.2.x86_64                          3/8 
+I, [2018-02-16T14:14:51.075506 #29226]  INFO -- node01-centos-74:   Updating   : binutils-2.25.1-32.base.el7_4.2.x86_64                       4/8 
+I, [2018-02-16T14:14:53.611628 #29226]  INFO -- node01-centos-74:   Installing : cpp-4.8.5-16.el7_4.1.x86_64                                  5/8 
+I, [2018-02-16T14:15:08.159113 #29226]  INFO -- node01-centos-74:   Installing : gcc-4.8.5-16.el7_4.1.x86_64                                  6/8 
+I, [2018-02-16T14:15:23.962742 #29226]  INFO -- node01-centos-74:   Installing : kernel-devel-3.10.0-693.11.1.el7.x86_64                      7/8 
+I, [2018-02-16T14:15:24.053133 #29226]  INFO -- node01-centos-74:   Cleanup    : binutils-2.25.1-32.base.el7_4.1.x86_64                       8/8 
+I, [2018-02-16T14:15:24.075828 #29226]  INFO -- node01-centos-74:   Verifying  : cpp-4.8.5-16.el7_4.1.x86_64                                  1/8 
+I, [2018-02-16T14:15:24.093050 #29226]  INFO -- node01-centos-74:   Verifying  : glibc-devel-2.17-196.el7_4.2.x86_64                          2/8 
+I, [2018-02-16T14:15:24.122768 #29226]  INFO -- node01-centos-74:   Verifying  : binutils-2.25.1-32.base.el7_4.2.x86_64                       3/8 
+I, [2018-02-16T14:15:24.187807 #29226]  INFO -- node01-centos-74:   Verifying  : kernel-devel-3.10.0-693.11.1.el7.x86_64                      4/8 
+I, [2018-02-16T14:15:24.216844 #29226]  INFO -- node01-centos-74:   Verifying  : kernel-headers-3.10.0-693.17.1.el7.x86_64                    5/8 
+I, [2018-02-16T14:15:24.231142 #29226]  INFO -- node01-centos-74:   Verifying  : glibc-headers-2.17-196.el7_4.2.x86_64                        6/8 
+I, [2018-02-16T14:15:24.257674 #29226]  INFO -- node01-centos-74:   Verifying  : gcc-4.8.5-16.el7_4.1.x86_64                                  7/8 
+I, [2018-02-16T14:15:24.357422 #29226]  INFO -- node01-centos-74:   Verifying  : binutils-2.25.1-32.base.el7_4.1.x86_64                       8/8 
+I, [2018-02-16T14:15:24.357517 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:15:24.357558 #29226]  INFO -- node01-centos-74: Installed:
+I, [2018-02-16T14:15:24.357594 #29226]  INFO -- node01-centos-74:   gcc.x86_64 0:4.8.5-16.el7_4.1    kernel-devel.x86_64 0:3.10.0-693.11.1.el7   
+I, [2018-02-16T14:15:24.357617 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:15:24.357636 #29226]  INFO -- node01-centos-74: Dependency Installed:
+I, [2018-02-16T14:15:24.357658 #29226]  INFO -- node01-centos-74:   cpp.x86_64 0:4.8.5-16.el7_4.1                                                 
+I, [2018-02-16T14:15:24.357690 #29226]  INFO -- node01-centos-74:   glibc-devel.x86_64 0:2.17-196.el7_4.2                                         
+I, [2018-02-16T14:15:24.357718 #29226]  INFO -- node01-centos-74:   glibc-headers.x86_64 0:2.17-196.el7_4.2                                       
+I, [2018-02-16T14:15:24.357750 #29226]  INFO -- node01-centos-74:   kernel-headers.x86_64 0:3.10.0-693.17.1.el7                                   
+I, [2018-02-16T14:15:24.357771 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:15:24.357794 #29226]  INFO -- node01-centos-74: Updated:
+I, [2018-02-16T14:15:24.357812 #29226]  INFO -- node01-centos-74:   binutils.x86_64 0:2.25.1-32.base.el7_4.2                                      
+I, [2018-02-16T14:15:24.357830 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:15:24.357846 #29226]  INFO -- node01-centos-74: Complete!
+I, [2018-02-16T14:15:24.567938 #29226]  INFO -- node01-centos-74: Copy iso file /Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso into the box /tmp/VBoxGuestAdditions.iso
+I, [2018-02-16T14:15:27.804108 #29226]  INFO -- node01-centos-74: Mounting Virtualbox Guest Additions ISO to: /mnt
+I, [2018-02-16T14:15:27.904908 #29226]  INFO -- node01-centos-74: mount: /dev/loop0 is write-protected, mounting read-only
+I, [2018-02-16T14:15:27.989112 #29226]  INFO -- node01-centos-74: Installing Virtualbox Guest Additions 5.1.28 - guest version is 5.2.4
+I, [2018-02-16T14:15:28.170460 #29226]  INFO -- node01-centos-74: Verifying archive integrity... All good.
+I, [2018-02-16T14:15:28.248505 #29226]  INFO -- node01-centos-74: Uncompressing VirtualBox 5.1.28 Guest Additions for Linux...........
+I, [2018-02-16T14:15:28.254783 #29226]  INFO -- node01-centos-74: VirtualBox Guest Additions installer
+I, [2018-02-16T14:15:28.289306 #29226]  INFO -- node01-centos-74: Removing installed version 5.2.4 of VirtualBox Guest Additions...
+I, [2018-02-16T14:15:41.640760 #29226]  INFO -- node01-centos-74: Copying additional installer modules ...
+I, [2018-02-16T14:15:43.736279 #29226]  INFO -- node01-centos-74: Installing additional modules ...
+I, [2018-02-16T14:16:52.490979 #29226]  INFO -- node01-centos-74: vboxadd.sh: Starting the VirtualBox Guest Additions.
+I, [2018-02-16T14:16:52.608026 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:16:52.608088 #29226]  INFO -- node01-centos-74: Could not find the X.Org or XFree86 Window System, skipping.
+I, [2018-02-16T14:16:53.200255 #29226]  INFO -- node01-centos-74: An error occurred during installation of VirtualBox Guest Additions 5.1.28. Some functionality may not work as intended.
+I, [2018-02-16T14:16:53.200348 #29226]  INFO -- node01-centos-74: In most cases it is OK that the "Window System drivers" installation failed.
+I, [2018-02-16T14:16:53.467291 #29226]  INFO -- node01-centos-74: Redirecting to /bin/systemctl start vboxadd.service
+I, [2018-02-16T14:16:53.695481 #29226]  INFO -- node01-centos-74: Redirecting to /bin/systemctl start vboxadd-service.service
+I, [2018-02-16T14:16:53.751397 #29226]  INFO -- node01-centos-74: Job for vboxadd-service.service failed because the control process exited with error code. See "systemctl status vboxadd-service.service" and "journalctl -xe" for details.
+I, [2018-02-16T14:16:53.754099 #29226]  INFO -- node01-centos-74: Unmounting Virtualbox Guest Additions ISO from: /mnt
+I, [2018-02-16T14:16:54.082140 #29226]  INFO -- node01-centos-74: Got different reports about installed GuestAdditions version:
+I, [2018-02-16T14:16:54.082221 #29226]  INFO -- node01-centos-74: Virtualbox on your host claims:   5.2.4
+I, [2018-02-16T14:16:54.082252 #29226]  INFO -- node01-centos-74: VBoxService inside the vm claims: 5.1.28
+I, [2018-02-16T14:16:54.082274 #29226]  INFO -- node01-centos-74: Going on, assuming VBoxService is correct...
+I, [2018-02-16T14:16:54.244613 #29226]  INFO -- node01-centos-74: Got different reports about installed GuestAdditions version:
+I, [2018-02-16T14:16:54.244758 #29226]  INFO -- node01-centos-74: Virtualbox on your host claims:   5.2.4
+I, [2018-02-16T14:16:54.244856 #29226]  INFO -- node01-centos-74: VBoxService inside the vm claims: 5.1.28
+I, [2018-02-16T14:16:54.244950 #29226]  INFO -- node01-centos-74: Going on, assuming VBoxService is correct...
+I, [2018-02-16T14:16:54.305439 #29226]  INFO -- node01-centos-74: ==> default: Checking for guest additions in VM...
+I, [2018-02-16T14:16:54.358358 #29226]  INFO -- node01-centos-74:     default: The guest additions on this VM do not match the installed version of
+I, [2018-02-16T14:16:54.358461 #29226]  INFO -- node01-centos-74:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2018-02-16T14:16:54.358528 #29226]  INFO -- node01-centos-74:     default: prevent things such as shared folders from working properly. If you see
+I, [2018-02-16T14:16:54.358611 #29226]  INFO -- node01-centos-74:     default: shared folder errors, please make sure the guest additions within the
+I, [2018-02-16T14:16:54.358714 #29226]  INFO -- node01-centos-74:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2018-02-16T14:16:54.358845 #29226]  INFO -- node01-centos-74:     default: your host and reload your VM.
+I, [2018-02-16T14:16:54.358932 #29226]  INFO -- node01-centos-74:     default: 
+I, [2018-02-16T14:16:54.359024 #29226]  INFO -- node01-centos-74:     default: Guest Additions Version: 5.2.4
+I, [2018-02-16T14:16:54.359093 #29226]  INFO -- node01-centos-74:     default: VirtualBox Version: 5.1
+I, [2018-02-16T14:16:54.536042 #29226]  INFO -- node01-centos-74: ==> default: Setting hostname...
+I, [2018-02-16T14:16:56.049688 #29226]  INFO -- node01-centos-74: ==> default: Mounting shared folders...
+I, [2018-02-16T14:16:56.050439 #29226]  INFO -- node01-centos-74:     default: /tmp/omnibus/cache => /Users/AA331421/.kitchen/cache
+I, [2018-02-16T14:16:56.837783 #29226]  INFO -- node01-centos-74: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2018-02-16T14:17:02.096735 #29226]  INFO -- node01-centos-74: [SSH] Established
+I, [2018-02-16T14:17:02.097574 #29226]  INFO -- node01-centos-74: Vagrant instance <node01-centos-74> created.
+I, [2018-02-16T14:17:02.102999 #29226]  INFO -- node01-centos-74: Finished creating <node01-centos-74> (5m2.20s).
+I, [2018-02-16T14:17:02.106270 #29226]  INFO -- node01-centos-74: -----> Converging <node01-centos-74>...
+I, [2018-02-16T14:17:02.108864 #29226]  INFO -- node01-centos-74: Preparing files for transfer
+I, [2018-02-16T14:17:02.109513 #29226]  INFO -- node01-centos-74: Preparing dna.json
+I, [2018-02-16T14:17:02.112866 #29226]  INFO -- node01-centos-74: Resolving cookbook dependencies with Berkshelf 6.3.1...
+I, [2018-02-16T14:17:02.318535 #29226]  INFO -- node01-centos-74: Removing non-cookbook files before transfer
+I, [2018-02-16T14:17:02.323123 #29226]  INFO -- node01-centos-74: Preparing solo.rb
+I, [2018-02-16T14:17:02.378053 #29226]  INFO -- node01-centos-74: -----> Installing Chef Omnibus (install only if missing)
+I, [2018-02-16T14:17:02.381223 #29226]  INFO -- node01-centos-74: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2018-02-16T14:17:02.383890 #29226]  INFO -- node01-centos-74: Trying wget...
+I, [2018-02-16T14:17:03.423237 #29226]  INFO -- node01-centos-74: Download complete.
+I, [2018-02-16T14:17:03.450195 #29226]  INFO -- node01-centos-74: el 7 x86_64
+I, [2018-02-16T14:17:03.450261 #29226]  INFO -- node01-centos-74: Getting information for chef stable  for el...
+I, [2018-02-16T14:17:03.450288 #29226]  INFO -- node01-centos-74: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=el&pv=7&m=x86_64
+I, [2018-02-16T14:17:03.450312 #29226]  INFO -- node01-centos-74:   to file /tmp/install.sh.18138/metadata.txt
+I, [2018-02-16T14:17:03.451694 #29226]  INFO -- node01-centos-74: trying wget...
+I, [2018-02-16T14:17:04.187685 #29226]  INFO -- node01-centos-74: sha1	0d8b0f9b3ce0a2721f7e8ff7ea46330fd712df46
+I, [2018-02-16T14:17:04.187745 #29226]  INFO -- node01-centos-74: sha256	89c96addb749370044964b63d16382149f0756d54e833602dd91cf039a92a9f7
+I, [2018-02-16T14:17:04.187768 #29226]  INFO -- node01-centos-74: url	https://packages.chef.io/files/stable/chef/13.7.16/el/7/chef-13.7.16-1.el7.x86_64.rpm
+I, [2018-02-16T14:17:04.187787 #29226]  INFO -- node01-centos-74: version	13.7.16
+I, [2018-02-16T14:17:04.190543 #29226]  INFO -- node01-centos-74: downloaded metadata file looks valid...
+I, [2018-02-16T14:17:04.204561 #29226]  INFO -- node01-centos-74: /tmp/omnibus/cache/chef-13.7.16-1.el7.x86_64.rpm exists
+I, [2018-02-16T14:17:04.204627 #29226]  INFO -- node01-centos-74: Comparing checksum with sha256sum...
+I, [2018-02-16T14:17:04.675961 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:17:04.676148 #29226]  INFO -- node01-centos-74: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-02-16T14:17:04.676208 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:17:04.676252 #29226]  INFO -- node01-centos-74: You are installing an omnibus package without a version pin.  If you are installing
+I, [2018-02-16T14:17:04.676340 #29226]  INFO -- node01-centos-74: on production servers via an automated process this is DANGEROUS and you will
+I, [2018-02-16T14:17:04.676380 #29226]  INFO -- node01-centos-74: be upgraded without warning on new releases, even to new major releases.
+I, [2018-02-16T14:17:04.676414 #29226]  INFO -- node01-centos-74: Letting the version float is only appropriate in desktop, test, development or
+I, [2018-02-16T14:17:04.676446 #29226]  INFO -- node01-centos-74: CI/CD environments.
+I, [2018-02-16T14:17:04.676479 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:17:04.676511 #29226]  INFO -- node01-centos-74: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-02-16T14:17:04.676578 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:17:04.676614 #29226]  INFO -- node01-centos-74: Installing chef 
+I, [2018-02-16T14:17:04.676683 #29226]  INFO -- node01-centos-74: installing with rpm...
+I, [2018-02-16T14:17:04.729440 #29226]  INFO -- node01-centos-74: warning: /tmp/omnibus/cache/chef-13.7.16-1.el7.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+I, [2018-02-16T14:17:04.971762 #29226]  INFO -- node01-centos-74: Preparing...                                                            (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2018-02-16T14:17:05.000170 #29226]  INFO -- node01-centos-74: Updating / installing...
+I, [2018-02-16T14:17:14.851764 #29226]  INFO -- node01-centos-74:    1:chef-13.7.16-1.el7                                                 (  1%)#                                 (  4%)##                                (  7%)###                               ( 10%)####                              ( 13%)#####                             ( 16%)######                            ( 19%)#######                           ( 22%)########                          ( 25%)#########                         ( 28%)##########                        ( 31%)###########                       ( 34%)############                      ( 37%)#############                     ( 40%)##############                    ( 43%)###############                   ( 46%)################                  ( 49%)#################                 ( 51%)##################                ( 54%)###################               ( 57%)####################              ( 60%)#####################             ( 63%)######################            ( 66%)#######################           ( 69%)########################          ( 72%)#########################         ( 75%)##########################        ( 78%)###########################       ( 81%)############################      ( 84%)#############################     ( 87%)##############################    ( 90%)###############################   ( 93%)################################  ( 96%)################################# ( 99%)################################# [100%]
+I, [2018-02-16T14:17:16.028468 #29226]  INFO -- node01-centos-74: Thank you for installing Chef!
+I, [2018-02-16T14:17:16.189435 #29226]  INFO -- node01-centos-74: Transferring files to <node01-centos-74>
+I, [2018-02-16T14:17:17.774671 #29226]  INFO -- node01-centos-74: Starting Chef Client, version 13.7.16
+I, [2018-02-16T14:17:20.015116 #29226]  INFO -- node01-centos-74: Creating a new client identity for node01-centos-74 using the validator key.
+I, [2018-02-16T14:17:20.181711 #29226]  INFO -- node01-centos-74: resolving cookbooks for run list: ["analog::default"]
+I, [2018-02-16T14:17:20.195698 #29226]  INFO -- node01-centos-74: Synchronizing Cookbooks:
+I, [2018-02-16T14:17:20.201542 #29226]  INFO -- node01-centos-74:   - analog (0.1.0)
+I, [2018-02-16T14:17:20.213969 #29226]  INFO -- node01-centos-74: Installing Cookbook Gems:
+I, [2018-02-16T14:17:20.214034 #29226]  INFO -- node01-centos-74: Compiling Cookbooks...
+I, [2018-02-16T14:17:20.214064 #29226]  INFO -- node01-centos-74: Converging 5 resources
+I, [2018-02-16T14:17:20.214088 #29226]  INFO -- node01-centos-74: Recipe: analog::default
+I, [2018-02-16T14:17:25.309597 #29226]  INFO -- node01-centos-74:   * remote_file[/tmp/kitchen/cache/analog-6.0-8-mdv2012.0.x86_64.rpm] action create
+I, [2018-02-16T14:17:25.309666 #29226]  INFO -- node01-centos-74:     - create new file /tmp/kitchen/cache/analog-6.0-8-mdv2012.0.x86_64.rpm
+I, [2018-02-16T14:17:25.309699 #29226]  INFO -- node01-centos-74:     - update content in file /tmp/kitchen/cache/analog-6.0-8-mdv2012.0.x86_64.rpm from none to 644f0a
+I, [2018-02-16T14:17:25.364380 #29226]  INFO -- node01-centos-74:     (new content is binary, diff output suppressed)
+I, [2018-02-16T14:17:25.364450 #29226]  INFO -- node01-centos-74:     - restore selinux security context
+I, [2018-02-16T14:17:42.517750 #29226]  INFO -- node01-centos-74:   * yum_package[gd] action install
+I, [2018-02-16T14:17:42.517829 #29226]  INFO -- node01-centos-74:     - install version 2.0.35-26.el7 of package gd
+I, [2018-02-16T14:17:42.821878 #29226]  INFO -- node01-centos-74:   * yum_package[perl] action install (up to date)
+I, [2018-02-16T14:17:46.603764 #29226]  INFO -- node01-centos-74:   * yum_package[perl-CGI] action install
+I, [2018-02-16T14:17:46.603848 #29226]  INFO -- node01-centos-74:     - install version 3.63-4.el7 of package perl-CGI
+I, [2018-02-16T14:17:47.109332 #29226]  INFO -- node01-centos-74:   * yum_package[analog] action install
+I, [2018-02-16T14:17:47.109411 #29226]  INFO -- node01-centos-74:     - install version 6.0-8 of package analog
+I, [2018-02-16T14:17:47.179174 #29226]  INFO -- node01-centos-74: 
+I, [2018-02-16T14:17:47.179234 #29226]  INFO -- node01-centos-74: Running handlers:
+I, [2018-02-16T14:17:47.179256 #29226]  INFO -- node01-centos-74: Running handlers complete
+I, [2018-02-16T14:17:47.179275 #29226]  INFO -- node01-centos-74: Chef Client finished, 4/5 resources updated in 29 seconds
+I, [2018-02-16T14:17:47.218320 #29226]  INFO -- node01-centos-74: Downloading files from <node01-centos-74>
+I, [2018-02-16T14:17:47.220234 #29226]  INFO -- node01-centos-74: Finished converging <node01-centos-74> (0m45.11s).
+I, [2018-02-16T14:17:47.220392 #29226]  INFO -- node01-centos-74: -----> Setting up <node01-centos-74>...
+I, [2018-02-16T14:17:47.223320 #29226]  INFO -- node01-centos-74: Finished setting up <node01-centos-74> (0m0.00s).
+I, [2018-02-16T14:17:47.223497 #29226]  INFO -- node01-centos-74: -----> Verifying <node01-centos-74>...
+I, [2018-02-16T14:17:47.224261 #29226]  INFO -- node01-centos-74: Preparing files for transfer
+I, [2018-02-16T14:17:47.517925 #29226]  INFO -- node01-centos-74: -----> Installing Busser (busser)
+I, [2018-02-16T14:17:49.892448 #29226]  INFO -- node01-centos-74: Fetching: thor-0.19.0.gemFetching: thor-0.19.0.gem (  3%)Fetching: thor-0.19.0.gem (  6%)Fetching: thor-0.19.0.gem (  9%)Fetching: thor-0.19.0.gem ( 12%)Fetching: thor-0.19.0.gem ( 15%)Fetching: thor-0.19.0.gem ( 17%)Fetching: thor-0.19.0.gem ( 20%)Fetching: thor-0.19.0.gem ( 23%)Fetching: thor-0.19.0.gem ( 26%)Fetching: thor-0.19.0.gem ( 29%)Fetching: thor-0.19.0.gem ( 32%)Fetching: thor-0.19.0.gem ( 35%)Fetching: thor-0.19.0.gem ( 53%)Fetching: thor-0.19.0.gem ( 71%)Fetching: thor-0.19.0.gem ( 89%)Fetching: thor-0.19.0.gem (100%)Fetching: thor-0.19.0.gem (100%)
+I, [2018-02-16T14:17:49.939593 #29226]  INFO -- node01-centos-74: Successfully installed thor-0.19.0
+I, [2018-02-16T14:17:50.129501 #29226]  INFO -- node01-centos-74: Fetching: busser-0.7.1.gemFetching: busser-0.7.1.gem ( 64%)Fetching: busser-0.7.1.gem (100%)Fetching: busser-0.7.1.gem (100%)
+I, [2018-02-16T14:17:50.149506 #29226]  INFO -- node01-centos-74: Successfully installed busser-0.7.1
+I, [2018-02-16T14:17:50.149572 #29226]  INFO -- node01-centos-74: 2 gems installed
+I, [2018-02-16T14:17:50.344287 #29226]  INFO -- node01-centos-74: -----> Installing Busser plugin: busser-bats
+I, [2018-02-16T14:17:54.618520 #29226]  INFO -- node01-centos-74: Plugin bats installed (version 0.3.0)
+I, [2018-02-16T14:17:54.618601 #29226]  INFO -- node01-centos-74: -----> Running postinstall for bats plugin
+I, [2018-02-16T14:17:54.654279 #29226]  INFO -- node01-centos-74: Installed Bats to /tmp/verifier/vendor/bats/bin/bats
+I, [2018-02-16T14:17:54.864931 #29226]  INFO -- node01-centos-74: -----> Installing Busser plugin: busser-minitest.org
+I, [2018-02-16T14:17:55.923589 #29226]  INFO -- node01-centos-74: /opt/chef/embedded/lib/ruby/2.4.0/rubygems/resolver/installer_set.rb:71:in `add_always_install': Unable to resolve dependency: user requested 'busser-minitest.org (>= 0)' (Gem::UnsatisfiableDependencyError)
+I, [2018-02-16T14:17:55.923670 #29226]  INFO -- node01-centos-74: 	from /opt/chef/embedded/lib/ruby/2.4.0/rubygems/dependency_installer.rb:474:in `resolve_dependencies'
+I, [2018-02-16T14:17:55.923706 #29226]  INFO -- node01-centos-74: 	from /opt/chef/embedded/lib/ruby/2.4.0/rubygems/dependency_installer.rb:384:in `install'
+I, [2018-02-16T14:17:55.923737 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/rubygems.rb:44:in `install_gem'
+I, [2018-02-16T14:17:55.923764 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:66:in `install_plugin_gem'
+I, [2018-02-16T14:17:55.923816 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:53:in `install'
+I, [2018-02-16T14:17:55.923851 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:43:in `block (2 levels) in install_all'
+I, [2018-02-16T14:17:55.923879 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:43:in `each'
+I, [2018-02-16T14:17:55.923906 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:43:in `block in install_all'
+I, [2018-02-16T14:17:55.923937 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/rubygems.rb:71:in `silence_gem_ui'
+I, [2018-02-16T14:17:55.923963 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/busser-0.7.1/lib/busser/command/plugin_install.rb:42:in `install_all'
+I, [2018-02-16T14:17:55.923994 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/command.rb:27:in `run'
+I, [2018-02-16T14:17:55.924263 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:126:in `invoke_command'
+I, [2018-02-16T14:17:55.924301 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:133:in `block in invoke_all'
+I, [2018-02-16T14:17:55.924333 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:133:in `each'
+I, [2018-02-16T14:17:55.924355 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:133:in `map'
+I, [2018-02-16T14:17:55.924377 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:133:in `invoke_all'
+I, [2018-02-16T14:17:55.924398 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/group.rb:232:in `dispatch'
+I, [2018-02-16T14:17:55.924424 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:115:in `invoke'
+I, [2018-02-16T14:17:55.924446 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor.rb:40:in `block in register'
+I, [2018-02-16T14:17:55.924467 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/command.rb:27:in `run'
+I, [2018-02-16T14:17:55.924487 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:126:in `invoke_command'
+I, [2018-02-16T14:17:55.924508 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor.rb:359:in `dispatch'
+I, [2018-02-16T14:17:55.924529 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:115:in `invoke'
+I, [2018-02-16T14:17:55.924555 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor.rb:235:in `block in subcommand'
+I, [2018-02-16T14:17:55.924576 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/command.rb:27:in `run'
+I, [2018-02-16T14:17:55.924597 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/invocation.rb:126:in `invoke_command'
+I, [2018-02-16T14:17:55.924621 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor.rb:359:in `dispatch'
+I, [2018-02-16T14:17:55.924642 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/thor-0.19.0/lib/thor/base.rb:440:in `start'
+I, [2018-02-16T14:17:55.924661 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/gems/gems/busser-0.7.1/bin/busser:8:in `<top (required)>'
+I, [2018-02-16T14:17:55.924682 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/bin/busser:23:in `load'
+I, [2018-02-16T14:17:55.924701 #29226]  INFO -- node01-centos-74: 	from /tmp/verifier/bin/busser:23:in `<main>'
+E, [2018-02-16T14:17:55.933943 #29226] ERROR -- node01-centos-74: Verify failed on instance <node01-centos-74>.
+E, [2018-02-16T14:17:55.934094 #29226] ERROR -- node01-centos-74: ------Exception-------
+E, [2018-02-16T14:17:55.934116 #29226] ERROR -- node01-centos-74: Class: Kitchen::ActionFailed
+E, [2018-02-16T14:17:55.934129 #29226] ERROR -- node01-centos-74: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+BUSSER_ROOT="/tmp/verifier"; export BUSSER_ROOT
+GEM_HOME="/tmp/verifier/gems"; export GEM_HOME
+GEM_PATH="/tmp/verifier/gems"; export GEM_PATH
+GEM_CACHE="/tmp/verifier/gems/cache"; export GEM_CACHE
+ruby="/opt/chef/embedded/bin/ruby"
+gem="/opt/chef/embedded/bin/gem"
+version="busser"
+gem_install_args="busser --no-rdoc --no-ri --no-format-executable -n /tmp/verifier/bin --no-user-install"
+busser="sudo -E /tmp/verifier/bin/busser"
+plugins="busser-bats busser-minitest.org"
+
+$gem list --no-versions | grep "^busser" 2>&1 >/dev/null
+if test $? -ne 0; then
+  echo "-----> Installing Busser ($version)"
+  $gem install $gem_install_args
+else
+  echo "-----> Busser installation detected ($version)"
+fi
+
+if test ! -f "$BUSSER_ROOT/bin/busser"; then
+  $busser setup
+fi
+
+for plugin in $plugins; do
+  $gem list --no-versions | grep "^$plugin$" 2>&1 >/dev/null
+  if test $? -ne 0; then
+    echo "-----> Installing Busser plugin: $plugin"
+    $busser plugin install $plugin
+  else
+    echo "-----> Busser plugin detected: $plugin"
+  fi
+done
+']
+E, [2018-02-16T14:17:55.934153 #29226] ERROR -- node01-centos-74: ----------------------
+E, [2018-02-16T14:17:55.934165 #29226] ERROR -- node01-centos-74: ------Backtrace-------
+E, [2018-02-16T14:17:55.934176 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/verifier/base.rb:80:in `rescue in call'
+E, [2018-02-16T14:17:55.934187 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/verifier/base.rb:67:in `call'
+E, [2018-02-16T14:17:55.934199 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:443:in `block in verify_action'
+E, [2018-02-16T14:17:55.934221 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2018-02-16T14:17:55.934233 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:498:in `block in action'
+E, [2018-02-16T14:17:55.934245 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2018-02-16T14:17:55.934480 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:497:in `action'
+E, [2018-02-16T14:17:55.934494 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:435:in `verify_action'
+E, [2018-02-16T14:17:55.934506 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2018-02-16T14:17:55.934518 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:367:in `each'
+E, [2018-02-16T14:17:55.934529 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2018-02-16T14:17:55.934540 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:157:in `verify'
+E, [2018-02-16T14:17:55.934551 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:186:in `block in test'
+E, [2018-02-16T14:17:55.934568 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2018-02-16T14:17:55.934580 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:182:in `test'
+E, [2018-02-16T14:17:55.934592 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-02-16T14:17:55.934603 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-02-16T14:17:55.934614 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-02-16T14:17:55.934625 #29226] ERROR -- node01-centos-74: ----End Backtrace-----
+E, [2018-02-16T14:17:55.934635 #29226] ERROR -- node01-centos-74: ---Nested Exception---
+E, [2018-02-16T14:17:55.934646 #29226] ERROR -- node01-centos-74: Class: Kitchen::Transport::SshFailed
+E, [2018-02-16T14:17:55.934656 #29226] ERROR -- node01-centos-74: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+BUSSER_ROOT="/tmp/verifier"; export BUSSER_ROOT
+GEM_HOME="/tmp/verifier/gems"; export GEM_HOME
+GEM_PATH="/tmp/verifier/gems"; export GEM_PATH
+GEM_CACHE="/tmp/verifier/gems/cache"; export GEM_CACHE
+ruby="/opt/chef/embedded/bin/ruby"
+gem="/opt/chef/embedded/bin/gem"
+version="busser"
+gem_install_args="busser --no-rdoc --no-ri --no-format-executable -n /tmp/verifier/bin --no-user-install"
+busser="sudo -E /tmp/verifier/bin/busser"
+plugins="busser-bats busser-minitest.org"
+
+$gem list --no-versions | grep "^busser" 2>&1 >/dev/null
+if test $? -ne 0; then
+  echo "-----> Installing Busser ($version)"
+  $gem install $gem_install_args
+else
+  echo "-----> Busser installation detected ($version)"
+fi
+
+if test ! -f "$BUSSER_ROOT/bin/busser"; then
+  $busser setup
+fi
+
+for plugin in $plugins; do
+  $gem list --no-versions | grep "^$plugin$" 2>&1 >/dev/null
+  if test $? -ne 0; then
+    echo "-----> Installing Busser plugin: $plugin"
+    $busser plugin install $plugin
+  else
+    echo "-----> Busser plugin detected: $plugin"
+  fi
+done
+']
+E, [2018-02-16T14:17:55.934688 #29226] ERROR -- node01-centos-74: ----------------------
+E, [2018-02-16T14:17:55.934701 #29226] ERROR -- node01-centos-74: ------Backtrace-------
+E, [2018-02-16T14:17:55.934712 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/verifier/base.rb:80:in `rescue in call'
+E, [2018-02-16T14:17:55.934729 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/verifier/base.rb:67:in `call'
+E, [2018-02-16T14:17:55.934742 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:443:in `block in verify_action'
+E, [2018-02-16T14:17:55.934753 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2018-02-16T14:17:55.934765 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:498:in `block in action'
+E, [2018-02-16T14:17:55.934776 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2018-02-16T14:17:55.934788 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:497:in `action'
+E, [2018-02-16T14:17:55.934799 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:435:in `verify_action'
+E, [2018-02-16T14:17:55.934823 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2018-02-16T14:17:55.934834 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:367:in `each'
+E, [2018-02-16T14:17:55.934845 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2018-02-16T14:17:55.934856 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:157:in `verify'
+E, [2018-02-16T14:17:55.934870 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:186:in `block in test'
+E, [2018-02-16T14:17:55.934882 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2018-02-16T14:17:55.934893 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/instance.rb:182:in `test'
+E, [2018-02-16T14:17:55.934903 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-02-16T14:17:55.934914 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-02-16T14:17:55.934925 #29226] ERROR -- node01-centos-74: /Users/AA331421/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-02-16T14:17:55.934935 #29226] ERROR -- node01-centos-74: ----End Backtrace-----
