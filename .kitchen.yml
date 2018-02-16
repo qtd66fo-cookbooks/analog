@@ -1,0 +1,37 @@
+<%
+require 'json'
+
+def suites(&block)
+  Dir.glob(File.join(File.dirname(__FILE__), '../../../vm/nodes', "*.json")) do |file|
+    suite_name = File.basename(file, '.json')
+    block.call(
+      suite_name,
+      JSON.parse(
+        open(file).read
+      )
+    )
+  end
+end
+%>
+
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: centos-7.4
+
+suites:
+<%
+  suites do |name, json|
+%>
+  - name: <%= name %>
+    run_list:
+      - recipe[analog::default]
+    attributes:
+<%
+  end
+%>
